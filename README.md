@@ -1,6 +1,6 @@
-# 🪐 Satoshium — Link
+# 🪐 Satoshium — Dev
 
-Satoshium Link serves as the navigation and routing layer of the Satoshium Universe. It exists to provide simple entry points into the broader ecosystem of platforms, knowledge systems, experimental environments, infrastructure layers, and community resources.
+Satoshium Dev is the builder-facing layer of the Satoshium ecosystem. This domain is intended to host developer tools, SDKs, APIs, architecture guides, agent frameworks, and practical resources for engineers exploring or building within the Satoshium platform.
 
 This repository is part of the **Satoshium platform**, an experimental system exploring how decentralized intelligence, AI agents, and cryptographic infrastructure can evolve together over long time horizons.
 
