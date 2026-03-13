@@ -7,7 +7,7 @@
 
 <style>
 :root{
- --card-wm: url('/assets/seal.png');
+ --card-wm: url('https://satoshium.link/assets/seal.png');
  --bg:#07090d;
  --panel:#0c1018;
  --text:#e8edf7;
@@ -81,12 +81,27 @@ h3{font-size:15px;color:var(--text)}
  font-size:14px;
 }
 
+.span-2{
+  grid-column: 1 / -1;
+}
+  
 .mini{font-size:13px}
 
 @media (max-width:760px){
  .grid-2{grid-template-columns:1fr}
  h1{font-size:30px}
 }
+
+function setActive(key){
+      const el = document.querySelector(`.topbar .nav a[data-nav="${key}"]`);
+      if (el) el.classList.add("active");
+    }
+
+    setActive("Dev");
+  });
+</script>
+
+ 
 </style>
 </head>
 
@@ -95,7 +110,7 @@ h3{font-size:15px;color:var(--text)}
 <div id="topbar-container"></div>
 
 <script>
-fetch("/topbar.html")
+fetch("https://satoshium.link/components/topbar.html")
 .then(r => r.text())
 .then(data => {
  document.getElementById("topbar-container").innerHTML = data;
@@ -104,9 +119,10 @@ fetch("/topbar.html")
 
 <main class="wrap content">
 
-<section class="hero">
 
-<h1>Satoshium Developer Layer</h1>
+<section class="hero">
+  
+<h1>🌐 Satoshium Developer Layer</h1>
 
 <p class="muted" style="max-width:900px;">
 Satoshium Dev is the builder-facing layer of the Satoshium ecosystem.
@@ -122,7 +138,16 @@ is where the tools and systems that power that platform are explored and constru
 </section>
 
 <div class="grid-2">
+ <div class="span-2" id="domain-layers"></div>
 
+<script>
+fetch("https://satoshium.link/components/domain-layers.html")
+ .then(r => r.text())
+ .then(data => {
+ document.getElementById("domain-layers").innerHTML = data;
+ });
+</script>
+  
 <div class="card">
 <h2>Why This Layer Exists</h2>
 
@@ -157,7 +182,7 @@ This domain is designed to support builders, engineers, and long-horizon contrib
 
 </div>
 
-<!-- DEV CARD + DOMAIN LAYERS -->
+<!-- DEV CARD -->
 
 <div class="card">
 
@@ -180,105 +205,12 @@ placeholder for the future developer ecosystem.
 
 </div>
 
-<!-- DOMAIN LAYERS SECTION -->
-
-<div class="card">
-
-<h2>🌐 Satoshium Universe: Domain Layers</h2>
-
-<p class="muted">
-Satoshium is expanding into a layered public ecosystem where each domain serves a distinct long-horizon role.
-Together, these domains form the public-facing architecture of the Satoshium Universe.
-</p>
-
-<div class="grid-2">
-
-<div class="card">
-<h3>🌐 satoshium.ai</h3>
-<p class="muted mini">
-The main public platform layer of Satoshium. This is the primary brand surface where visitors encounter the
-broader vision, public systems, and AI-facing platform experience.
-</p>
-<p><a href="https://satoshium.ai/" target="_blank">Visit satoshium.ai →</a></p>
-</div>
-
-<div class="card">
-<h3>📚 satoshium.info</h3>
-<p class="muted mini">
-The knowledge and engineering workspace layer. This domain preserves documentation,
-architecture, and public development surfaces.
-</p>
-<p><a href="https://satoshium.info/" target="_blank">Visit satoshium.info →</a></p>
-</div>
-
-<div class="card">
-<h3>🧪 satoshium.xyz</h3>
-<p class="muted mini">
-The experimental frontier where prototypes, agents, and simulations are tested.
-</p>
-<p><a href="https://satoshium.xyz/" target="_blank">Visit satoshium.xyz →</a></p>
-</div>
-
-<div class="card">
-<h3>🛰️ satoshium.net</h3>
-<p class="muted mini">
-Future infrastructure and network layer covering nodes, topology,
-and ecosystem infrastructure.
-</p>
-<p><a href="https://satoshium.net/" target="_blank">Visit satoshium.net →</a></p>
-</div>
-
-<div class="card">
-<h3>🛍️ satoshium.store</h3>
-<p class="muted mini">
-Merchandise and cultural expression layer for the Satoshium brand.
-</p>
-<p><a href="https://satoshium.store/" target="_blank">Visit satoshium.store →</a></p>
-</div>
-
-<div class="card">
-<h3>🔗 satoshium.link</h3>
-<p class="muted mini">
-Gateway and routing layer used for navigation hubs, redirects,
-and QR-friendly access paths.
-</p>
-<p><a href="https://satoshium.link/" target="_blank">Visit satoshium.link →</a></p>
-</div>
-
-<div class="card">
-<h3>🛠️ satoshium.dev</h3>
-<p class="muted mini">
-The developer layer of the Satoshium ecosystem — builder onboarding,
-SDKs, APIs, agent tooling, and technical resources.
-</p>
-<p><span class="muted mini">This page represents the early foundation of that layer.</span></p>
-</div>
-
-<div class="card">
-<h3>🇺🇸 satoshium.us</h3>
-<p class="muted mini">
-Future U.S. operational layer covering jurisdictional topics,
-regulatory context, and infrastructure discussions.
-</p>
-<p><span class="muted mini">Planned domain — repository not yet created</span></p>
-</div>
-
-</div>
-
-<div class="note">
-In the long run, these domains may function together as distinct public layers of one coherent
-Satoshium Universe: platform, knowledge, experimentation, infrastructure, commerce,
-routing, development, and jurisdictional presence.
-</div>
-
-</div>
-
 </main>
 
 <div id="footer-container"></div>
 
 <script>
-fetch("/footer.html")
+fetch("https://satoshium.link/components/footer.html")
 .then(r => r.text())
 .then(data => {
  document.getElementById("footer-container").innerHTML = data;
