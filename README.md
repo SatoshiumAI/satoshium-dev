@@ -3,8 +3,9 @@
 Satoshium Dev is the **developer coordination layer** of the Satoshium ecosystem.
 
 This domain provides architecture guides, agent frameworks, SDK concepts,
-integration pathways, simulation interfaces, registry references, and governance-aware
-development surfaces supporting builders working within the Satoshium platform.
+integration pathways, simulation interfaces, registry references, signal-aware
+coordination tooling, and governance-compatible development surfaces supporting
+builders working within the Satoshium platform.
 
 This repository is part of the **Satoshium platform**, an experimental system exploring how decentralized intelligence, AI agents, and cryptographic infrastructure evolve together over long time horizons.
 
@@ -39,6 +40,7 @@ It supports:
 - SDK surface definitions
 - agent interaction models
 - integration pathways
+- signal-aware coordination tooling
 - simulation infrastructure alignment
 - governance-aware development workflows
 - verification-compatible tooling structures
@@ -57,12 +59,13 @@ Satoshium architecture follows several coordination layers.
 | **Trust Layer** | Verification systems, governance rules, and execution boundaries |
 | **Knowledge Layer** | Canonical vocabulary and structured documentation |
 | **Intelligence Layer** | Agents and coordination-aware reasoning systems |
+| **Signal Layer** | Coordination routing, proposal visibility, and structured system signaling |
 | **Simulation Layer** | Scenario modeling and exploratory environments |
 | **Interface Layer** | Public platform surfaces and interaction tools |
 
 This repository primarily contributes to the:
 
-**➡ Intelligence Layer and Developer Coordination Layer**
+**➡ Intelligence Layer, Signal Layer, and Developer Coordination Layer**
 
 ---
 
@@ -82,7 +85,6 @@ Primary developer-layer documentation includes:
 
 Supporting coordination documentation is located in:
 
-
 /docs/readme.md
 /docs/protocol.md
 /docs/governance.md
@@ -90,9 +92,19 @@ Supporting coordination documentation is located in:
 /docs/install.md
 /docs/references.md
 
----
+📡 Signal-Compatible Development
 
-# ⚙ Shared Platform Components
+Satoshium Dev supports builder-facing pathways that may eventually interact with:
+
+signal routing systems
+proposal intake structures
+coordination visibility layers
+registry-linked signaling tools
+simulation-backed coordination environments
+
+This ensures the developer layer remains compatible with the broader Signal Layer across the platform.
+
+⚙ Shared Platform Components
 
 Many Satoshium domains use shared interface components hosted through:
 
@@ -106,74 +118,63 @@ Examples include:
 
 These maintain consistent navigation and architecture visibility across the ecosystem.
 
----
-
-# 🧩 Relationship to Other Repositories
+🧩 Relationship to Other Repositories
 
 This repository coordinates with multiple platform modules, including:
 
-- **satoshium-ai** — architecture layer
-- **satoshium-net** — infrastructure and services
-- **satoshium-info** — knowledge systems
-- **satoshium-xyz** — simulations and experimental environments
-- **satoshium-registry** — system identifiers
-- **satoshium-specs** — specification layer
-- **satoshium-core** — shared platform logic
+satoshium-ai — architecture layer
+satoshium-net — infrastructure and services
+satoshium-info — knowledge systems
+satoshium-xyz — simulations and experimental environments
+satoshium-registry — system identifiers
+satoshium-specs — specification layer
+satoshium-core — shared platform logic
 
-Repositories function as **coordinated modules rather than isolated projects**.
+Repositories function as coordinated modules rather than isolated projects.
 
----
-
-# 🚧 Development Status
+🚧 Development Status
 
 Satoshium Dev is under active long-horizon development.
 
 Current emphasis includes:
 
-- SDK surface definition
-- agent coordination frameworks
-- simulation-layer migration pathways
-- registry-linked tooling alignment
-- governance-compatible development workflows
-- verification-aware infrastructure participation
+SDK surface definition
+agent coordination frameworks
+signal-compatible tooling pathways
+simulation-layer migration pathways
+registry-linked tooling alignment
+governance-compatible development workflows
+verification-aware infrastructure participation
 
----
-
-# 📚 Philosophy
+📚 Philosophy
 
 Satoshium is being built:
 
-- slowly  
-- transparently  
-- with architectural discipline  
+slowly
+transparently
+with architectural discipline
 
 The goal is durable reasoning infrastructure rather than short-term product cycles.
 
----
+🔗 Explore the Ecosystem
 
-# 🔗 Explore the Ecosystem
+https://satoshium.ai
+https://satoshium.info
+https://satoshium.xyz
+https://satoshium.net
+https://satoshium.store
+https://satoshium.link
 
-- https://satoshium.ai  
-- https://satoshium.info  
-- https://satoshium.xyz  
-- https://satoshium.net  
-- https://satoshium.store  
-- https://satoshium.link  
+🧠 Satoshium
 
----
-
-# 🧠 Satoshium
-
-**AI governed by Bitcoin.**
+AI governed by Bitcoin.
 
 Satoshium explores how decentralized intelligence systems can be built using:
 
-- cryptographic rules
-- transparent architecture
-- open documentation
-- long-horizon design
+cryptographic rules
+transparent architecture
+open documentation
+long-horizon design
 
----
-
-© Satoshium  
+© Satoshium
 Experimental platform under active development.
