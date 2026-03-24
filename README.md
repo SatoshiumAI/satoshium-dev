@@ -1,24 +1,28 @@
 # 🪐 Satoshium — Dev
 
-Satoshium Dev is the builder-facing layer of the Satoshium ecosystem. This domain is intended to host developer tools, SDKs, APIs, architecture guides, agent frameworks, and practical resources for engineers exploring or building within the Satoshium platform.
+Satoshium Dev is the **developer coordination layer** of the Satoshium ecosystem.
 
-This repository is part of the **Satoshium platform**, an experimental system exploring how decentralized intelligence, AI agents, and cryptographic infrastructure can evolve together over long time horizons.
+This domain provides architecture guides, agent frameworks, SDK concepts,
+integration pathways, simulation interfaces, registry references, and governance-aware
+development surfaces supporting builders working within the Satoshium platform.
+
+This repository is part of the **Satoshium platform**, an experimental system exploring how decentralized intelligence, AI agents, and cryptographic infrastructure evolve together over long time horizons.
 
 ---
 
 # 🌐 The Satoshium Universe
 
-Satoshium is expanding into a **layered domain ecosystem** where each domain serves a distinct role.
+Satoshium is organized as a layered domain ecosystem where each domain serves a distinct role.
 
 | Domain | Role |
 |------|------|
-| **satoshium.ai** | Public platform layer |
-| **satoshium.info** | Knowledge & engineering layer |
-| **satoshium.xyz** | Experimental frontier |
-| **satoshium.net** | Infrastructure & network layer |
-| **satoshium.store** | Cultural & merchandise layer |
-| **satoshium.link** | Gateway & shared components |
-| **satoshium.dev** | Developer ecosystem (planned) |
+| **satoshium.ai** | Public platform architecture layer |
+| **satoshium.info** | Knowledge and documentation layer |
+| **satoshium.xyz** | Experimental systems layer |
+| **satoshium.net** | Infrastructure and services layer |
+| **satoshium.store** | Cultural and economic layer |
+| **satoshium.link** | Gateway and routing layer |
+| **satoshium.dev** | Developer coordination layer |
 | **satoshium.us** | Jurisdictional / operational layer (planned) |
 
 Together these domains form the **Satoshium Universe**.
@@ -27,84 +31,111 @@ Together these domains form the **Satoshium Universe**.
 
 # 🧭 Role of This Repository
 
-This repository supports the **[layer / system]** of the Satoshium platform.
+This repository defines the builder-facing coordination surface of Satoshium.
 
-Its responsibilities may include:
+It supports:
 
-- [primary responsibility]
-- [secondary responsibility]
-- [supporting systems]
-- [documentation / infrastructure / experimentation]
+- developer-layer architecture documentation
+- SDK surface definitions
+- agent interaction models
+- integration pathways
+- simulation infrastructure alignment
+- governance-aware development workflows
+- verification-compatible tooling structures
+- registry-aware system referencing
 
-Each repository exists to support **structured growth of the ecosystem**, not isolated projects.
+This repository helps connect experimental systems with stable infrastructure layers across the platform.
 
 ---
 
 # 🧠 Platform Layers
 
-Satoshium architecture generally follows several conceptual layers.
+Satoshium architecture follows several coordination layers.
 
 | Layer | Purpose |
 |------|------|
-| **Trust Layer** | Verification, safety, and governance logic |
-| **Knowledge Layer** | Documentation, terminology, and structured knowledge |
-| **Intelligence Layer** | Agents, reasoning systems, and coordination |
-| **Simulation Layer** | Experimental modeling environments |
-| **Interface Layer** | Public platform and application surfaces |
+| **Trust Layer** | Verification systems, governance rules, and execution boundaries |
+| **Knowledge Layer** | Canonical vocabulary and structured documentation |
+| **Intelligence Layer** | Agents and coordination-aware reasoning systems |
+| **Simulation Layer** | Scenario modeling and exploratory environments |
+| **Interface Layer** | Public platform surfaces and interaction tools |
 
 This repository primarily contributes to the:
 
-**➡ [Insert layer here]**
+**➡ Intelligence Layer and Developer Coordination Layer**
+
+---
+
+# ⚙ Developer Layer Structure
+
+Primary developer-layer documentation includes:
+
+/dev/index.md
+/dev/build/index.md
+/dev/sdk/index.md
+/dev/agents/index.md
+/dev/integrations/index.md
+/dev/simulations/index.md
+/dev/governance/index.md
+/dev/verification/index.md
+/dev/registry/index.md
+
+Supporting coordination documentation is located in:
+
+
+/docs/readme.md
+/docs/protocol.md
+/docs/governance.md
+/docs/style-guide.md
+/docs/install.md
+/docs/references.md
 
 ---
 
 # ⚙ Shared Platform Components
 
-Many Satoshium domains use shared components hosted through:
+Many Satoshium domains use shared interface components hosted through:
 
 https://satoshium.link
 
-Shared UI infrastructure may include:
+Examples include:
 
-/components/topbar.html
+/components/topbar-loader.js
 /components/footer.html
-/components/domain-layers.html
+/components/domain-layers.js
 
-
-These components help maintain consistent navigation and architecture visibility across the Satoshium ecosystem.
+These maintain consistent navigation and architecture visibility across the ecosystem.
 
 ---
 
 # 🧩 Relationship to Other Repositories
 
-This repository interacts with several other Satoshium repositories.
+This repository coordinates with multiple platform modules, including:
 
-Examples may include:
-
+- **satoshium-ai** — architecture layer
+- **satoshium-net** — infrastructure and services
+- **satoshium-info** — knowledge systems
+- **satoshium-xyz** — simulations and experimental environments
+- **satoshium-registry** — system identifiers
+- **satoshium-specs** — specification layer
 - **satoshium-core** — shared platform logic
-- **satoshium-specs** — architecture definitions
-- **satoshium-progress** — public build documentation
-- **satoshium-simulations** — experimental modeling environments
-- **satoshium-demos** — prototype demonstrations
-- **satoshium-registry** — system indexing and structure
 
-Repositories within the ecosystem function as **coordinated modules rather than isolated projects**.
+Repositories function as **coordinated modules rather than isolated projects**.
 
 ---
 
 # 🚧 Development Status
 
-Satoshium repositories are under **active long-horizon development**.
+Satoshium Dev is under active long-horizon development.
 
-Some repositories may contain:
+Current emphasis includes:
 
-- working systems
-- experimental prototypes
-- early architectural structures
-- documentation in progress
-- conceptual groundwork
-
-Tools and modules may evolve significantly over time.
+- SDK surface definition
+- agent coordination frameworks
+- simulation-layer migration pathways
+- registry-linked tooling alignment
+- governance-compatible development workflows
+- verification-aware infrastructure participation
 
 ---
 
@@ -116,7 +147,7 @@ Satoshium is being built:
 - transparently  
 - with architectural discipline  
 
-The goal is not rapid hype-driven development, but **durable systems thinking over decades**.
+The goal is durable reasoning infrastructure rather than short-term product cycles.
 
 ---
 
@@ -146,5 +177,3 @@ Satoshium explores how decentralized intelligence systems can be built using:
 
 © Satoshium  
 Experimental platform under active development.
-
-<img width="647" height="2743" alt="image" src="https://github.com/user-attachments/assets/2195a641-ff38-4bd3-80bc-b4ddfed23548" />
